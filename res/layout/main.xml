@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="wrap_content"
+	android:background="@drawable/bg">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:weightSum="5.0"
+		android:alpha="5.0"
+		android:background="#00000000">
+
+		<TextView
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Search Engine Online"
+			android:textColor="#00E4FF"
+			android:textSize="27dp"
+			android:paddingBottom="17dp"
+			android:shadowColor="#BF00F3"
+			android:shadowRadius="10.0"
+			android:shadowDy="7.0"/>
+
+		<ImageView
+			android:background="@drawable/fileicon_virus_hidden"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:scaleType="fitXY"/>
+
+		<TextView
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Populer Game in playstore download now"
+			android:textColor="#00E4FF"
+			android:textSize="19dp"
+			android:paddingBottom="17dp"
+			android:shadowColor="#E100F3"
+			android:shadowRadius="10.0"
+			android:shadowDy="7.0"
+			android:rotationY="50.0"/>
+
+		<ImageView
+			android:background="@drawable/log"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_gravity="center"
+			android:scaleType="fitXY"
+			android:onClick="hcClick"/>
+
+		<ImageView
+			android:id="@+id/spin_animation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:paddingTop="27dp"
+			android:adjustViewBounds="true"
+			android:scaleType="fitXY"
+			android:background="#00000000"/>
+
+		<TextView
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="download cashtree di playstore, atau bisa juga click gambar iconnya"
+			android:textColor="#00E4FF"
+			android:textSize="17dp"
+			android:paddingBottom="10dp"
+			android:shadowColor="#BF00F3"
+			android:shadowRadius="10.0"
+			android:paddingTop="20dp"
+			android:rotationY="-50.0"/>
+
+		<ImageView
+			android:id="@+id/spin"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:gravity="center"
+			android:paddingTop="27dp"
+			android:adjustViewBounds="true"
+			android:scaleType="fitXY"
+			android:background="#00000000"
+			android:onClick="klikClick"/>
+
+		<TextView
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="tekan start untuk memulai ke server"
+			android:textColor="#00E4FF"
+			android:textSize="17dp"
+			android:paddingBottom="10dp"
+			android:shadowColor="#9D00F3"
+			android:shadowRadius="10.0"
+			android:paddingTop="20dp"/>
+
+		<Button
+			android:translationY="-8dp"
+			android:ellipsize="start"
+			android:onClick="subClick"
+			android:text="start"
+			android:layout_width="130dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:shadowColor="#00FF8D"
+			android:shadowRadius="5.0"
+			android:typeface="sans"
+			android:layout_marginTop="20dp"
+			android:lines="1"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

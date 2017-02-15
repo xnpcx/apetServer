@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:textAlignment="center"
+	android:id="@+id/upi"
+	android:layout_gravity="center"
+	android:alpha="5.0"/>
